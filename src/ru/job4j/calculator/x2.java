@@ -11,6 +11,7 @@ public class x2 {
         int c = 0;
         int x = 1;
         int rsl = x2.calc(a, b, c, x);
+
         System.out.println(rsl);
     }
 }
