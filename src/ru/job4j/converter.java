@@ -3,7 +3,7 @@ package ru.job4j.converter;
 class Converter {
 
     static float euroToRuble(float value) {
-        float rsl = 70 / value;
+        float rsl = 70 * value;
         return rsl;
     }
 
@@ -13,7 +13,7 @@ class Converter {
     }
 
     static float dollarToRuble(float value) {
-        float rsl = 60 / value;
+        float rsl = 60 * value;
         return rsl;
     }
 
@@ -23,7 +23,7 @@ class Converter {
     }
 
     static void showEuroToRuble(float value) {
-        float rsl = 70 / value;
+        float rsl = 70 * value;
         System.out.println(value + " euro are " + rsl + " rubles.");
     }
 
@@ -33,7 +33,7 @@ class Converter {
     }
 
     static void showDollarToRuble(float value) {
-        float rsl = 60 / value;
+        float rsl = 60 * value;
         System.out.println(value + " dollar are " + rsl + " rubles.");
     }
 
