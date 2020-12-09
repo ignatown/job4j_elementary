@@ -3,11 +3,10 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class SqAreaTest {
 
     @Test
-    public void square_p6_k2_e2() {
+    public void squareP6K2E2() {
         int expected = 2;
         int p = 6;
         int k = 2;
@@ -16,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void square_p4_k1_e1() {
+    public void squareP4K1E1() {
         int expected = 1;
         int p = 4;
         int k = 1;
@@ -25,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void square_p8_k3_e3() {
+    public void squareP8K3E3() {
         int expected = 3;
         int p = 8;
         int k = 3;
@@ -34,7 +33,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void square_p12_k2_e8() {
+    public void squareP12K2E8() {
         int expected = 8;
         int p = 12;
         int k = 2;
