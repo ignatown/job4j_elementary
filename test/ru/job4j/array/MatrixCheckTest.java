@@ -76,6 +76,7 @@ public class MatrixCheckTest {
         char[] expect = {'X', 'X', 'X', 'Z'};
         assertThat(result, is(expect));
     }
+
     @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
@@ -114,6 +115,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.isWin(input);
         assertThat(result, is(true));
     }
+
     @Test
     public void whenDataHMonoByFalseThenFalse() {
         char[][] input = {

@@ -9,6 +9,7 @@ public class ReverseLoopForArray {
                     "Текущий элемент массива начиная с последнего (только чётные): "
                             + numbers[numbers.length - 1 - i]
             );
-        } }
+        }
+     }
     }
 }
