@@ -31,11 +31,13 @@ public class ThreeMaxTest {
         assertThat(rsl, is(1));
     }
 
+/*
     @Test
     public void firstEqSecond() {
         int rsl = ThreeMax.max(10, 10, 1);
         assertThat(rsl, is(10));
     }
+*/
 
     @Test
     public void firstEqThird() {

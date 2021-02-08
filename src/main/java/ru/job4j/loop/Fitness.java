@@ -5,7 +5,7 @@ public class Fitness {
         int month = 0;
         if (ivan == nik) {
             return 1; }
-        } else {
+         else {
         while (ivan < nik) {
             ivan = ivan * 3;
             nik = nik * 2;
